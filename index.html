@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Unnamed Button Game</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link href="unnamedButtonGame.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="break_infinity.js"></script>
+    <script src="ad-notations.js" defer></script>
+    <script src="unnamedButtonGame.js" defer></script>
+  </head>
+  <body>
+    <script src="chs.js"></script>
+    <script src="core.js"></script>
+    <!--stats-->
+    <div id="stats">
+      <p>You have <span id="dots">0</span> dots</p>
+      <p>You gain <span id="dotsPerClick">1</span> dots per click</p>
+      <p id="stat3">You are earning <span id="dotsPerSecond">0</span> dots per second<br><br></p>
+      <p id="stat4" style="color: #255c25">You have <span id="dashes">0</span> dashes</p>
+      <p id="stat5" style="color: #255c25">You gain <span id="dashesPerClick">1</span> dashes per click<br><br></p>
+
+      <p id="stat6" style="color: #52195e">You have <span id="backslashes">0</span> backslashes</p>
+    </div>
+    <!--options-->
+    <div id="optionsButton" onclick="optionBox()"><p id="optionsText">▼</p></div>
+    <div id="options">
+      <button id="saveButton" onclick="save()">Save</button>
+      <button id="exportButton" onclick="exportGame()">Export</button>
+      <button id="importButton" onclick="importGame()">import</button>
+      <button id="resetButton" onclick="resetConfirm()">Hard reset</button>
+    </div>
+    <!--game-->
+    <div id="game">
+      <div id="info">
+        <p id="infoTitle">:)</p>
+        <p id="infoText">Welcome to Unnamed Button Game!</p>
+      </div>
+      <button id="button1" onclick="dot1()" onmouseover="info(1)">•</button>
+      <button id="button2" onclick="dot2()" onmouseover="info(2)">••</button>
+      <button id="button3" onclick="dot3()" onmouseover="info(3)">•••</button>
+      <button id="button4" onclick="dot4()" onmouseover="info(4)">••<br>••</button>
+      <button id="button5" onclick="dot5()" onmouseover="info(5)">• •<br>•<br>• •</button>
+      <button id="button6" onclick="dot6()" onmouseover="info(6)">•••<br>•••</button>
+      <button id="button7" onclick="dot7()" onmouseover="info(7)">••<br>•••<br>••</button>
+      <button id="button11" onclick="dot8()" onmouseover="info(11)">•••<br>•••<br>••</button>
+
+      <button id="button8" onclick="dash1()" onmouseover="info(8)">-</button>
+      <button id="button9" onclick="dash2()" onmouseover="info(9)">--</button>
+      <button id="button10" onclick="dash3()" onmouseover="info(10)">---</button>
+
+      <img src="paint.png" id="paintSplotch">
+      <button id="button12" onclick="backslash()" onmouseover="info(12)">\</button>
+      <button id="button13" onclick="plus1()" onmouseover="info(13)">+</button>
+      <button id="button14" onclick="plus2()" onmouseover="info(14)">++</button>
+      <button id="button15" onclick="plus3()" onmouseover="info(15)">+++</button>
+    </div>
+    <!--version text-->
+    <p id="versionText">v2.1.0</p>
+<!--客服 开始-->
+<script src="//g8hh.github.io/static/js/jquery.min.js"></script>
+<link rel="stylesheet" href="//g8hh.github.io/static/css/kf.css" type="text/css" media="screen" charset="utf-8">
+<script src="//g8hh.github.io/static/js/kf.js"></script>
+<!-- 客服 结束 -->
+<!--站长统计-->
+    <div style="display: none">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6581389daf4dd6fe7dbb4d20fdcb52a6";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    </div>
+  </body>
+</html>

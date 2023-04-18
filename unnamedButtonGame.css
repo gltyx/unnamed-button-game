@@ -1,0 +1,320 @@
+/*General page stuff*/
+body {
+  background-color: #81a8c7;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  user-select: none;
+}
+
+p {font-size: 2vh; line-height: 2vh;}
+
+#versionText {
+  position: absolute;
+  bottom: 0;
+  right: 1.8vh;
+  color: #6482aa;
+  font-size: 1.5vh;
+}
+
+/*Stats stuff*/
+#stats {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 99;
+  padding-left: 2vh;
+}
+
+#stat3 {
+  display: none;
+}
+
+#stat4 {
+  display: none;
+}
+
+#stat5 {
+  display: none;
+}
+
+#stat6 {
+  display: none;
+}
+
+/*Options tab*/
+
+#optionsButton {
+  position: absolute;
+  top: 1vh;
+  right: 1vh;
+  width: 3vh;
+  height: 3vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 1.5vh;
+  cursor: pointer;
+  z-index: 97;
+}
+
+#optionsButton p {
+  color: white;
+  text-align: center;
+  line-height: 3vh;
+  margin: 0;
+}
+
+#options {
+  position: absolute;
+  top: 4vh;
+  right: 1vh;
+  width: 15vh;
+  height: 13vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 1vh 0 1vh 1vh;
+  display: none;
+  z-index: 97;
+}
+
+#saveButton {
+  position: absolute;
+  top: 2vh;
+  left: 3.7vh;
+  width: 6vh;
+  height: 2.5vh;
+  background-color: #e0e0e0;
+  border: 0.4vh solid #909090;
+  border-radius: 0.3vh;
+  line-height: 1.3vh;
+  font-size: 1.2vh;
+  z-index: 98;
+}
+
+#exportButton {
+  position: absolute;
+  top: 5vh;
+  left: 3.7vh;
+  width: 6vh;
+  height: 2.5vh;
+  background-color: #e0e0e0;
+  border: 0.4vh solid #909090;
+  border-radius: 0.3vh;
+  line-height: 1.3vh;
+  font-size: 1.2vh;
+  z-index: 98;
+}
+
+#importButton {
+  position: absolute;
+  top: 8vh;
+  left: 3.7vh;
+  width: 6vh;
+  height: 2.5vh;
+  background-color: #e0e0e0;
+  border: 0.4vh solid #909090;
+  border-radius: 0.3vh;
+  line-height: 1.3vh;
+  font-size: 1.2vh;
+  z-index: 98;
+}
+
+#resetButton {
+  position: absolute;
+  top: 11vh;
+  left: 4.7vh;
+  width: 8vh;
+  height: 2.5vh;
+  background-color: #e0e0e0;
+  border: 0.4vh solid #909090;
+  border-radius: 0.3vh;
+  line-height: 1.3vh;
+  font-size: 1.2vh;
+  z-index: 98;
+}
+
+/*Info box stuff*/
+#info {
+  position: absolute;
+  top: 39vh;
+  left: 39vh;
+  width: 22vh;
+  height: 22vh;
+  background-color: #00000020;
+  border-radius: 20vh;
+}
+
+#infoTitle {
+  font-size: 3vh;
+  text-align: center;
+}
+
+#infoText {
+  font-size: 1.5vh;
+  margin-top: 5.5vh;
+  text-align: center;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+/*Game stuff*/
+#game {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100vh;
+  width: 100vh;
+  background-color: #9dc3da;
+}
+
+button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 5vh;
+  height: 5vh;
+  background-color: #e0e0e0;
+  border: 0.4vh solid #909090;
+  border-radius: 2.5vh;
+  line-height: 3.3vh;
+  padding: 0;
+  transition: filter 400ms;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: translate(-50%, -50%) scale(0.95, 0.95);
+}
+
+#button1 {
+  font-size: 4vh;
+  display: none;
+}
+
+#button2 {
+  font-size: 4vh;
+  display: none;
+}
+
+#button3 {
+  font-size: 2vh;
+  width: 4vh;
+  height: 4vh;
+  line-height: 3vh;
+  display: none;
+}
+
+#button4 {
+  font-size: 3vh;
+  line-height: 1.1vh;
+  display: none;
+}
+
+#button5 {
+  font-size: 2vh;
+  line-height: 0.8vh;
+  width: 4vh;
+  height: 4vh;
+  display: none;
+}
+
+#button6 {
+  font-size: 2vh;
+  line-height: 1.1vh;
+  width: 4vh;
+  height: 4vh;
+  display: none;
+}
+
+#button7 {
+  font-size: 2vh;
+  line-height: 0.8vh;
+  width: 4vh;
+  height: 4vh;
+  background-color: #9eda9e;
+  border: 0.4vh solid #66a066;
+  display: none;
+}
+
+#button8 {
+  font-size: 4vh;
+  background-color: #9eda9e;
+  border: 0.4vh solid #66a066;
+  display: none;
+}
+
+#button9 {
+  font-size: 4vh;
+  background-color: #9eda9e;
+  border: 0.4vh solid #66a066;
+  display: none;
+}
+
+#button10 {
+  font-size: 2.5vh;
+  line-height: 1.1vh;
+  width: 4vh;
+  height: 4vh;
+  background-color: #9eda9e;
+  border: 0.4vh solid #66a066;
+  display: none;
+}
+
+#button11 {
+  font-size: 2vh;
+  line-height: 0.8vh;
+  width: 4vh;
+  height: 4vh;
+  display: none;
+}
+
+#button12 {
+  font-size: 4vh;
+  background-color: #c99eda;
+  border: 0.4vh solid #9666a0;
+  display: none;
+}
+
+#paintSplotch {
+  position: absolute;
+  transform: translate(-48%, -50%);
+  width: 8vh;
+  height: 8vh;
+  opacity: 0.5;
+  display: none;
+}
+
+#button13 {
+  font-size: 2.6vh;
+  line-height: 1.1vh;
+  width: 4vh;
+  height: 4vh;
+  background-color: #b09eda;
+  border: 0.4vh solid #7766a0;
+  display: none;
+}
+
+#button14 {
+  font-size: 2vh;
+  line-height: 1.1vh;
+  width: 4vh;
+  height: 4vh;
+  background-color: #b09eda;
+  border: 0.4vh solid #7766a0;
+  display: none;
+}
+
+#button15 {
+  font-size: 1.5vh;
+  line-height: 1.1vh;
+  width: 4vh;
+  height: 4vh;
+  background-color: #b09eda;
+  border: 0.4vh solid #7766a0;
+  display: none;
+}
