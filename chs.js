@@ -63,7 +63,7 @@ var cnItems = {
     "dashes.": "破折号。",
     "dashes. (": "破折号。 (",
     "Multuplies dots/s and dots/click by log10(dashes)+1. Costs": "将 圆点/秒 和 圆点/点击 乘以 log10（破折号）+1。 费用",
-    "": "",
+    "Unlock backslash. Costs 20.00 B dots.": "解锁反斜杠。 成本 20.00 B 圆点。",
     "": "",
     "": "",
     "": "",
