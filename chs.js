@@ -67,7 +67,7 @@ var cnItems = {
     "Backslash": "反斜杠",
     "Reset everything, but gain a dot/dash multiplier based on your dots.": "重置所有内容，但根据您的圆点获得一个 圆点/破折号 乘数。",
     "Squares multiplier gain from backslash. Costs 3 backslashes.": "从反斜杠中获得平方乘数。 花费 3 反斜杠。",
-    "": "",
+    "Squares multiplier gain from backslash again. Costs 4 backslashes.": "再次从反斜杠中获得平方乘数。 花费 4 反斜杠。",
     "": "",
     "": "",
     "": "",
