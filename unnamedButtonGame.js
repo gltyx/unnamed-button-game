@@ -555,7 +555,7 @@ function plus3() {
 //Backslash
 function backslash() {
   if (game.oneTimeButtonsBought[7] != true) {
-    if (confirm("Are you sure you want to backslash?")) {
+    if (confirm("您确定要进行反斜杠操作吗？")) {
       oneTimeTemp = game.oneTimeButtonsBought
       oneTimeTemp.fill(false, 0, 5)
       backslashesTemp = game.backslashes.add(1)
